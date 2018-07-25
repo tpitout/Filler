@@ -6,7 +6,7 @@
 /*   By: tpitout <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/07/16 09:52:53 by tpitout           #+#    #+#             */
-/*   Updated: 2018/07/24 15:37:48 by tpitout          ###   ########.fr       */
+/*   Updated: 2018/07/25 12:28:44 by tpitout          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,6 +45,7 @@ int					get_pos(t_map *m, t_piece *piece);
 void				bot(t_map *m, t_piece *piece);
 void				get_map(t_map *m);
 void				get_piece(t_piece *piece);
+void				g(t_map *m, int x, int y);
 void				pick_algo(t_map *map, t_piece *piece);
 void				algo0x(t_map *m, t_piece *piece);
 void				algo1x(t_map *m, t_piece *piece);
